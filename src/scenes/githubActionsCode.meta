@@ -1,0 +1,62 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "transitionDone",
+      "targetTime": 1.5
+    },
+    {
+      "name": "setup highlighted",
+      "targetTime": 2
+    },
+    {
+      "name": "pnpm i highlighted",
+      "targetTime": 2.5
+    },
+    {
+      "name": "codegen highlighted",
+      "targetTime": 3
+    },
+    {
+      "name": "build highlighted",
+      "targetTime": 3.5
+    },
+    {
+      "name": "tests highlighted",
+      "targetTime": 4
+    },
+    {
+      "name": "snail",
+      "targetTime": 7.732536167818141
+    },
+    {
+      "name": "parallel tests",
+      "targetTime": 9.48448375857471
+    },
+    {
+      "name": "build labels",
+      "targetTime": 11.35848557147491
+    },
+    {
+      "name": "parallel builds too",
+      "targetTime": 13.073823539489222
+    },
+    {
+      "name": "remove install",
+      "targetTime": 14.873839569726686
+    },
+    {
+      "name": "remove unit test codegen",
+      "targetTime": 15.4
+    },
+    {
+      "name": "separate the builds",
+      "targetTime": 17.4
+    },
+    {
+      "name": "discreet builds",
+      "targetTime": 20.282189321718217
+    }
+  ],
+  "seed": 3456713077
+}
