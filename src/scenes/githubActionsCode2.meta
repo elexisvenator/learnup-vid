@@ -1,0 +1,54 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "transitionDone",
+      "targetTime": 1.5
+    },
+    {
+      "name": "cache save action",
+      "targetTime": 2.7
+    },
+    {
+      "name": "cache save config",
+      "targetTime": 3.9000000000000004
+    },
+    {
+      "name": "always cache",
+      "targetTime": 5.622322057977956
+    },
+    {
+      "name": "show all",
+      "targetTime": 6.722322057977956
+    },
+    {
+      "name": "show cache image",
+      "targetTime": 9.782570791826037
+    },
+    {
+      "name": "hide cache image",
+      "targetTime": 11.515396966567012
+    },
+    {
+      "name": "scroll down",
+      "targetTime": 13.27198091424074
+    },
+    {
+      "name": "restore codegen",
+      "targetTime": 14.61690332913053
+    },
+    {
+      "name": "restore props",
+      "targetTime": 15.991008927223602
+    },
+    {
+      "name": "fail on cache miss",
+      "targetTime": 17.63389700489942
+    },
+    {
+      "name": "show all again",
+      "targetTime": 18.2637089235477
+    }
+  ],
+  "seed": 1170204920
+}

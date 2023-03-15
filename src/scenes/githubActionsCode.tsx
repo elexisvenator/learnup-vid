@@ -146,13 +146,6 @@ export default makeScene2D(function* (view) {
     build.push(addLabel(newLabels[idx], build[0].position().addX(700)))
   });
 
-  // separateBuilds[0].push(addLabel('Build', separateBuilds[0][0].position().addX(700)));
-  // separateBuilds[1].push(addLabel('Unit tests', separateBuilds[1][0].position().addX(700)));
-  // separateBuilds[2].push(addLabel('Service tests', separateBuilds[2][0].position().addX(700)));
-  // separateBuilds[3].push(addLabel('Projection tests', separateBuilds[3][0].position().addX(700)));
-  // separateBuilds[4].push(addLabel('Integration tests', { ...separateBuilds[4][0].position(), x: separateBuilds[4][0].position().x + 700 }));
-  // separateBuilds[5].push(addLabel('Query specs', { ...separateBuilds[5][0].position(), x: separateBuilds[5][0].position().x + 700 }));
-
   yield* sequence(0.2, ...separateBuilds.map(build => build[1].opacity(1, 0.5)));
   yield* waitUntil('build labels');
 
@@ -284,4 +277,6 @@ export default makeScene2D(function* (view) {
   yield* waitUntil('discreet builds');
 
   useScene().enterCanTransitionOut();
+
+  yield* all(...view.children().map(n => n.position(n.position().addX(-100), 1.5)));
 });
