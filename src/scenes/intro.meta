@@ -2,8 +2,12 @@
   "version": 0,
   "timeEvents": [
     {
+      "name": "initial pause",
+      "targetTime": 0.5633215839998157
+    },
+    {
       "name": "next",
-      "targetTime": 1.16266944734098
+      "targetTime": 4.789052144339793
     }
   ],
   "seed": 1642195262

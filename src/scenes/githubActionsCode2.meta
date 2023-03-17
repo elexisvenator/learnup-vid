@@ -3,51 +3,51 @@
   "timeEvents": [
     {
       "name": "transitionDone",
-      "targetTime": 1.5
+      "targetTime": 5.441470791742681
     },
     {
       "name": "cache save action",
-      "targetTime": 2.7
+      "targetTime": 10.181840239319717
     },
     {
       "name": "cache save config",
-      "targetTime": 3.9000000000000004
+      "targetTime": 30.60676576509571
     },
     {
       "name": "always cache",
-      "targetTime": 5.622322057977956
+      "targetTime": 37.31014896932868
     },
     {
       "name": "show all",
-      "targetTime": 6.722322057977956
+      "targetTime": 40.099745960847564
     },
     {
       "name": "show cache image",
-      "targetTime": 9.782570791826037
+      "targetTime": 55.74035292154119
     },
     {
       "name": "hide cache image",
-      "targetTime": 11.515396966567012
+      "targetTime": 59.13310831360263
     },
     {
       "name": "scroll down",
-      "targetTime": 13.27198091424074
+      "targetTime": 64.2528252512012
     },
     {
       "name": "restore codegen",
-      "targetTime": 14.61690332913053
+      "targetTime": 68.62660064224636
     },
     {
       "name": "restore props",
-      "targetTime": 15.991008927223602
+      "targetTime": 78.82481060716576
     },
     {
       "name": "fail on cache miss",
-      "targetTime": 17.63389700489942
+      "targetTime": 91.90618311232241
     },
     {
       "name": "show all again",
-      "targetTime": 18.2637089235477
+      "targetTime": 113.63279010252873
     }
   ],
   "seed": 1170204920

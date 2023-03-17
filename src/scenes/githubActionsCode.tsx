@@ -1,5 +1,5 @@
 import { makeScene2D } from '@motion-canvas/2d';
-import { Rect, Txt, Node, Icon, Line } from '@motion-canvas/2d/lib/components';
+import { Rect, Txt, Icon, Line } from '@motion-canvas/2d/lib/components';
 import { all, any, waitFor, waitUntil, sequence, chain } from '@motion-canvas/core/lib/flow';
 import { Direction, Spacing, Vector2 } from '@motion-canvas/core/lib/types';
 import { createRef, makeRef, useRandom, useScene } from '@motion-canvas/core/lib/utils';
@@ -7,7 +7,6 @@ import { slideTransition } from "@motion-canvas/core/lib/transitions";
 import { CodeBlock, lines } from '@motion-canvas/2d/lib/components/CodeBlock';
 import { linear } from '@motion-canvas/core/lib/tweening';
 import { Random } from '@motion-canvas/core/lib/scenes';
-import { createSignal } from '@motion-canvas/core/lib/signals';
 
 const shuffle = function <T>(random: Random, array: T[]): T[] {
   return [...array]
@@ -102,13 +101,13 @@ export default makeScene2D(function* (view) {
       );
     })
   );
-
+  yield* waitUntil('pivot');
   const snail = createRef<Txt>();
   view.add(
     <Icon ref={snail} size={400} y={250} x={-1200} icon={'openmoji:snail'}></Icon>
   );
 
-  yield snail().position({ ...snail().position(), x: 1200 }, 5, linear);
+  yield snail().position({ ...snail().position(), x: 1200 }, 10, linear);
   yield* waitUntil('snail');
 
   const buildIconX = icons[2].position().x;

@@ -1,13 +1,10 @@
 import { makeScene2D } from '@motion-canvas/2d';
-import { Rect, Txt, Node, Icon, Line, Img } from '@motion-canvas/2d/lib/components';
-import { all, any, waitFor, waitUntil, sequence, chain } from '@motion-canvas/core/lib/flow';
-import { Direction, Spacing, Vector2 } from '@motion-canvas/core/lib/types';
-import { createRef, makeRef, useRandom, useScene } from '@motion-canvas/core/lib/utils';
+import { Rect, Icon, Img } from '@motion-canvas/2d/lib/components';
+import { waitUntil, sequence, chain } from '@motion-canvas/core/lib/flow';
+import { Direction } from '@motion-canvas/core/lib/types';
+import { createRef, useScene } from '@motion-canvas/core/lib/utils';
 import { slideTransition } from "@motion-canvas/core/lib/transitions";
 import { CodeBlock, insert, lines } from '@motion-canvas/2d/lib/components/CodeBlock';
-import { linear } from '@motion-canvas/core/lib/tweening';
-import { Random } from '@motion-canvas/core/lib/scenes';
-import { createSignal } from '@motion-canvas/core/lib/signals';
 import cachePng from '../../images/caches.png';
 
 export default makeScene2D(function* (view) {

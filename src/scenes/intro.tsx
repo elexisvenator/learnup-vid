@@ -16,7 +16,8 @@ export default makeScene2D(function* (view) {
   )
 
   yield* titleLabel().text('🎓 ');
-  yield* titleLabel().text('🎓 LearnUp', 1);
+  yield* waitUntil('initial pause');
+  yield* titleLabel().text('🎓 LearnUp', 2);
   yield* waitUntil('next');
   useScene().enterCanTransitionOut();
   yield* titleLabel().position.x(-300, 1.5);

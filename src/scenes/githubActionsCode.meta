@@ -3,59 +3,63 @@
   "timeEvents": [
     {
       "name": "transitionDone",
-      "targetTime": 1.5
+      "targetTime": 8.462213007369758
     },
     {
       "name": "setup highlighted",
-      "targetTime": 2
+      "targetTime": 10.676928002764187
     },
     {
       "name": "pnpm i highlighted",
-      "targetTime": 2.5
+      "targetTime": 14.147610581847516
     },
     {
       "name": "codegen highlighted",
-      "targetTime": 3
+      "targetTime": 23.629909856948164
     },
     {
       "name": "build highlighted",
-      "targetTime": 3.5
+      "targetTime": 26.807987940842956
     },
     {
       "name": "tests highlighted",
-      "targetTime": 4
+      "targetTime": 30.93265789312315
+    },
+    {
+      "name": "pivot",
+      "targetTime": 34.57650542760008
     },
     {
       "name": "snail",
-      "targetTime": 7.732536167818141
+      "targetTime": 45.52175960934687
     },
     {
       "name": "parallel tests",
-      "targetTime": 9.48448375857471
+      "targetTime": 56.44289352664498
     },
     {
       "name": "build labels",
-      "targetTime": 11.35848557147491
+      "targetTime": 60.45932777248432
     },
     {
       "name": "parallel builds too",
-      "targetTime": 13.073823539489222
+      "targetTime": 75.44045143511337
     },
     {
       "name": "remove install",
-      "targetTime": 14.873839569726686
+      "targetTime": 83.4619383361796
     },
     {
       "name": "remove unit test codegen",
-      "targetTime": 15.4
+      "targetTime": 87.5714985048484
     },
     {
       "name": "separate the builds",
-      "targetTime": 17.4
+      "targetTime": 93.23066553613697
     },
     {
       "name": "discreet builds",
-      "targetTime": 20.282189321718217
+      "targetTime": 102.00334447530234
     }
   ],
   "seed": 3456713077
